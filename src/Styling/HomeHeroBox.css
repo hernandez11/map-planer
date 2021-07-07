@@ -1,0 +1,27 @@
+.homeHeroBox_wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter: blur(6px);
+    height: 100px;
+    width: 20vw;
+    margin: 0 50px;
+}
+
+.homeHeroBox_wrapper >img{
+    justify-self: flex-start;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.homeHeroBox_text > h1{
+    font-size: 1.2rem;
+}
+
+.homeHeroBox_text >p{
+    font-size: smaller;
+    font-weight: 300;
+    padding: 10px 0;
+}

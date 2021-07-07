@@ -1,0 +1,57 @@
+.home{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_hero_wrapper{
+    background-image: url('../ImageAssets/Egypt.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home_hero_wrapper >h1{
+    font-size: 6vw;
+}
+
+.home_hero_wrapper >p{
+    font-size: 1rem;
+}
+
+.home_hero_button{
+    display: flex;
+    margin: 10vh 0;
+    width: 15vw;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 40px;
+}
+
+.home_heroBox_container{
+    display: flex;
+    margin-bottom: 8vh;
+}
+
+.home_hero_social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 9%;
+    right: 3%;
+}
+
+.home_hero_social >img{
+    width: 30px;
+    padding: 5px;
+}
